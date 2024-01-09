@@ -1,0 +1,190 @@
+/* Se arranca con "*" para borrar todo tipo de formato preexistente */
+
+* {
+    margin: 0;
+    /* padding sirve para dar margenes de posicion de los objetos */
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+ul {
+    float: right;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #231e60;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 4rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.link1 {
+       color: #FFFFFF;
+       gap: 2rem;
+    
+}
+
+.hero {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+    align-items: center;
+
+
+}
+
+.hero-title {
+    font-size: 3rem;
+
+}
+
+.hero-text {
+    margin-top: 2rem;
+}
+
+.hero-botton {
+    color: #808080;
+    display: flex;
+    margin-top: 0.5 rem;
+    gap: 2rem;
+    border: 1px solid #808080;
+    padding: 0.2rem;
+    border-radius: 5px;
+    float: right;
+
+}
+
+.contenido-titulo {
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.tabla {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 4rem;
+    text-align: center;
+
+
+}
+
+.conte-link {
+    color: rgb(248, 224, 6);
+}
+
+.contenido-01 {
+    background-color: #f27920;
+
+}
+
+.contenido-02 {
+    background-color: #808080;
+
+}
+
+.contenido-03 {
+    background-color: #231e60;
+    color: white;
+
+}
+
+.contenido-04 {
+    background-color: black;
+    color: white;
+}
+
+.conte-icon {
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+.conte-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.conte-pa {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.registro {
+    display: flex;
+    background-color: #808080;
+    padding: 3rem;
+    gap: 3rem;
+
+}
+
+.informacion-contacto {
+    background-color: #f27920;
+    gap: 3rem;
+    padding-inline: 2rem;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+}
+
+.mapa {
+    background-color: #231e60;
+    padding: 3rem;
+    display: flex;
+
+}
+
+.direccion {
+    text-align: center;
+    color: white;
+    padding-inline: 5rem;
+    margin: auto;
+    font-size: large;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2rem;
+    gap: 3rem;
+
+}
+
+.somos {
+    font-family: sans-serif;
+    gap: 3rem;
+flex: 4;
+}
+.menu-foot {
+    color: white;
+}
+/* colores 
+#F27920 - naranja
+#231E60 - azul
+#FFFFFF - blanco
+#808080 - gris
+#000000 - negro
+*/
