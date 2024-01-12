@@ -288,4 +288,20 @@ header {
     color: #f27920;
 }
 
+.link1:hover {
+    color: #f27920;
 }
+
+.menu-foot:hover {
+    color: #f27920;
+}
+
+.mas-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    .pregunta {
+        background-color: #808080;
+        display: 
+    }
+    
