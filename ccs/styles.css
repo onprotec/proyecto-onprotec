@@ -264,14 +264,28 @@ header {
 
 
     }
+}
 
-    @media (max-width: 650px) {
-        .menu {
-            gap: 0rem;
-            padding: 0.5fr;
-            display: flex;
-            flex-direction: column;
+@media (max-width: 650px) {
 
-
-        }
+    .menu {
+        gap: 0rem;
+        padding: 0.5fr;
+        display: flex;
+        flex-direction: column;
     }
+}
+
+.div2:hover {
+    color: #f27920;
+}
+
+.div1:hover {
+    color: #FFFFFF;
+}
+
+.div3:hover {
+    color: #f27920;
+}
+
+}
