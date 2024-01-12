@@ -181,10 +181,57 @@ flex: 4;
 .menu-foot {
     color: white;
 }
-/* colores 
-#F27920 - naranja
-#231E60 - azul
-#FFFFFF - blanco
-#808080 - gris
-#000000 - negro
-*/
+
+.parent-contactos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 3 / 2 / 5 / 5;
+    background-color: #f27920;
+    gap: 3rem;
+    padding: 2rem; }
+    .div2 { grid-area: 1 / 2 / 3 / 5;
+    background-color: #808080;
+    gap: 3rem;
+    padding: 2rem;
+     }
+    .div3 { grid-area: 5 / 2 / 7 / 5;
+    background-color: #231e60;
+    color:#FFFFFF;
+    gap: 3rem;
+    padding: 2rem; }
+    .div4 { grid-area: 1 / 1 / 7 / 2;
+    background-color: black;
+    color: white;
+    gap: 3rem;
+    padding: 2rem; }
+    .div5 { grid-area: 1 / 5 / 3 / 6;
+        background-color: #808080;
+        gap: 3rem;
+        padding: 2rem;
+     }
+    .div6 { grid-area: 3 / 5 / 5 / 6;
+        background-color: #f27920;
+        gap: 3rem;
+        padding: 2rem;  }
+    .div7 { grid-area: 5 / 5 / 7 / 6;
+        background-color: #231e60;
+        color:#FFFFFF;
+        gap: 3rem;
+        padding: 2rem;  }
+
+        .grilla {
+            height: auto;
+            display: grid;
+            grid-template-rows: 1fr 2fr auto;
+            grid-template-columns: 1fr 20% 2fr;
+            row-gap: 1rem;
+            padding: 1rem;
+            grid-template-areas: "columna1  Titulo1   contenido1"
+                                 "columna1  Titulo2   contenido2" 
+                                 "columna1  Titulo3   contenido3";  
+        }
