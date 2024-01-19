@@ -1,14 +1,10 @@
-/* Se arranca con "*" para borrar todo tipo de formato preexistente */
-
 * {
     margin: 0;
-    /* padding sirve para dar margenes de posicion de los objetos */
     padding: 0rem;
     box-sizing: border-box;
     font-family: 'REM', sans-serif;
     list-style: none;
     text-decoration: none;
-
 }
 
 ul {
@@ -40,7 +36,6 @@ header {
 .link1 {
     color: #FFFFFF;
     gap: 2rem;
-
 }
 
 .hero {
@@ -50,13 +45,10 @@ header {
     padding: 3rem;
     gap: 2rem;
     align-items: center;
-
-
 }
 
 .hero-title {
     font-size: 3rem;
-
 }
 
 .hero-text {
@@ -72,7 +64,6 @@ header {
     padding: 0.2rem;
     border-radius: 5px;
     float: right;
-
 }
 
 .contenido-titulo {
@@ -86,8 +77,6 @@ header {
     gap: 3rem;
     padding: 1rem 4rem;
     text-align: center;
-
-
 }
 
 .conte-link {
@@ -96,18 +85,15 @@ header {
 
 .contenido-01 {
     background-color: #f27920;
-
 }
 
 .contenido-02 {
     background-color: #808080;
-
 }
 
 .contenido-03 {
     background-color: #231e60;
     color: white;
-
 }
 
 .contenido-04 {
@@ -136,7 +122,6 @@ header {
     background-color: #808080;
     padding: 3rem;
     gap: 3rem;
-
 }
 
 .informacion-contacto {
@@ -153,7 +138,6 @@ header {
     background-color: #231e60;
     padding: 3rem;
     display: flex;
-
 }
 
 .direccion {
@@ -170,7 +154,6 @@ header {
     display: flex;
     padding: 2rem;
     gap: 3rem;
-
 }
 
 .somos {
@@ -253,26 +236,28 @@ header {
     grid-template-areas: "columna1  Titulo1   contenido1"
         "columna1  Titulo2   contenido2"
         "columna1  Titulo3   contenido3";
-
 }
 
 @media (max-width: 650px) {
     .grilla {
-
         display: flex;
         flex-direction: column;
-
-
     }
 }
 
 @media (max-width: 650px) {
-
     .menu {
         gap: 0rem;
         padding: 0.5fr;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    .tabla {
+        flex-direction: column;
+        padding-inline: 2rem;
     }
 }
 
@@ -299,9 +284,13 @@ header {
 .mas-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    }
-    .pregunta {
-        background-color: #808080;
-        display: 
-    }
-    
+}
+
+.pregunta {
+    background-color: #808080;
+    grid-template-rows: max-content;
+}
+
+.lateral {
+    display: none;
+}
